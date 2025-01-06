@@ -30,38 +30,45 @@ Clone this repository to your local machine.
 
 ```bash
 
+# Clone the repository to your local machine
 git clone https://github.com/Springhawk27/baby-affiliate.git
 
+# Create a virtual environment named 'venv' in the current folder
 python -m venv venv # run this command in the same folder
 
 ```
 
 ```bash
 
+# change the directory to baby-affiliate
 cd baby-affiliate
 
 ```
 
 ```bash
 
+# Activate the virtual environment
 .\venv\Scripts\activate
 
 ```
 
 ```bash
 
+# Install the required dependencies listed in the 'requirements.txt' file
 pip install -r requirements.txt
 
 ```
 
 ```bash
 
+# Run migrations to set up the database tables
 python manage.py migrate
 
 ```
 
 ```bash
 
+# Create a superuser account for the admin panel
 python manage.py createsuperuser
 
 
@@ -69,18 +76,21 @@ python manage.py createsuperuser
 
 ```bash
 
+# Run the Django development server
 python manage.py runserver
 
 ```
 
 ```bash
 
+# Open the website in the browser
 http://127.0.0.1:8000/
 
 ```
 
 ```bash
 
+# Access the Django admin panel in the browser
 http://127.0.0.1:8000/admin/
 
 ```
